@@ -1,7 +1,7 @@
 # MPSIS
 
 
-# Kompilacja programu:
+## Kompilacja programu:
 ```
 g++ main.cpp -o main.cgi -lcgicc
 
