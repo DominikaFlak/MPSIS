@@ -31,5 +31,7 @@ g++ main.cpp -o main.cgi -lcgicc
 ```
 ## Uprawnienia:
 ```
-Program korzysta z plikow tekstowych w ktorych zapisany jest model, a takze tworzy robocze pliki tekstowe dlatego nalezy pamietac o nadaniu odpowiednich uprawnien do odczytu, zapisu i modyfikacji folderowi, w ktorym umieszczony zostanie program.
+Program korzysta z plikow tekstowych w ktorych zapisany jest model, a takze tworzy robocze pliki tekstowe
+dlatego nalezy pamietac o nadaniu odpowiednich uprawnien do odczytu, zapisu i modyfikacji folderowi, w
+ktorym umieszczony zostanie program.
 ```
