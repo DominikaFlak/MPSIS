@@ -1,7 +1,12 @@
 # MPSIS
 ## How to
 ```
-Panel optymalizacyjny stworzony przez nas sluzy do optymalizacji kosztu budowy autostrady na zadanym terenie (aby nastepnie poprowadzic wzdluz tej drogi swiatlowody). Zakladamy ze teren jest znany (znamy wiec tez koszty poszczegolnych dzialek, pokrycie radiowe na nich). Zadaniem uzytkownika jest jedynie zawezenie terenu na ktorym chce on zbudowac autostrade, okreslenie wymaganego przez niego pokrycia radiowego, oraz sprecyzowanie na ile maksymalnie odcinkow drogi moze sobie pozwolic.
+Panel optymalizacyjny stworzony przez nas sluzy do optymalizacji kosztu budowy autostrady na
+zadanym terenie (aby nastepnie poprowadzic wzdluz tej drogi swiatlowody). Zakladamy ze teren 
+jest znany (znamy wiec tez koszty poszczegolnych dzialek, pokrycie radiowe na nich). Zadaniem
+uzytkownika jest jedynie zawezenie terenu na ktorym chce on zbudowac autostrade, okreslenie
+wymaganego przez niego pokrycia radiowego, oraz sprecyzowanie na ile maksymalnie odcinkow drogi
+moze sobie pozwolic.
 ```
 ## Kompilacja programu:
 ```
