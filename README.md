@@ -1,5 +1,5 @@
 # MPSIS
-## How to
+
 ```
 Panel optymalizacyjny stworzony przez nas sluzy do optymalizacji kosztu budowy autostrady na
 zadanym terenie (aby nastepnie poprowadzic wzdluz tej drogi swiatlowody). Zakladamy ze teren 
