@@ -2,7 +2,10 @@
 
 
 # Kompilacja programu:
+```
 g++ main.cpp -o main.cgi -lcgicc
+
+```
 
 ## Konfiguracja Apache:
 ```   
@@ -11,8 +14,11 @@ g++ main.cpp -o main.cgi -lcgicc
 	AllowOverride None    
 	Require all granted   
         AddHandler cgi-script .out .cgi .exe   
-       </Directory>    
+   </Directory>    
 ```
 
-# Aktywacja modulow:
+## Aktywacja modulow:
+```  
   a2enmod cgid
+  
+```
