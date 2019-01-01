@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Optimize costs of your highway</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+  <link rel="stylesheet" href="css/style.css" type="text/css" media="all">  
+  <!--[if lt IE 7]>
+  	<link rel="stylesheet" href="css/ie/ie6.css" type="text/css" media="screen">
+    <script type="text/javascript" src="js/ie_png.js"></script>
+    <script type="text/javascript">
+        ie_png.fix('.png, .logo img, .nav-box ul li, .list1 li');
+    </script>
+  <![endif]-->
+  <!--[if lt IE 9]>
+  	<script type="text/javascript" src="js/html5.js"></script>
+  <![endif]-->
+    
+<script type="text/javascript">
+    function validateForm()
+    {
+        var a=document.forms["Form"]["value1"].value;
+        
+        var c=document.forms["Form"]["value3"].value;
+        var d=document.forms["Form"]["value4"].value;
+        if (a==null || a=="",c==null || c=="",d==null || d=="")
+        {
+            alert("Please Fill All Required Field");
+          return false;  
+        } else if ( ((a== 16) && (c < 4)) || ((a== 20) && (c < 5)) || ((a== 24) && (c < 6))) {
+             alert("Number of road segments must be greater");
+          
+             return false;       
+                                                                                            }
+
+
+    }
+</script>
+
+</head>
+
+<body id="page1">
+  <!-- header -->
+  <header>
+    <div class="container">
+      <!-- .logo -->
+      <div class="logo"> <a href="index.html"><img src="images/logo163.png" alt=""></a> </div>
+      <!-- /.logo -->
+      <ul class="top-nav">
+      </ul>
+    </div>
+  </header>
+  <!-- content -->
+<section id="content">
+    <div class="container">
+    	<div class="wrapper">
+      	<aside>
+
+          <form method="post" name="Form" onsubmit="return validateForm()" action="main.cgi">
+         
+		  
+          <!-- .box -->
+          <div class="box">
+          	<div class="inner">
+            	<h3>How many fields does your area contain? :</h3>
+				
+          <!--  <input type="text" name="value1" placeholder="8,12,16,20 or 24" pattern= "[8,12,16,20,24]">   --> 
+               <input type="number" name="value1" step="4" min="8" max="24">         
+ </div>
+          </div>
+          <!-- /.box -->
+		  
+		  <!-- .box -->
+          <div class="box">
+          	<div class="inner">
+            	<h3>What is the maximum amount of road segments you can afford? :</h3>
+				<a class="podpowiedz"><input type="number" name="value3" placeholder="3-53" min="3" max="53"><span><img src="images/dymek1.png" width="444px" height="92px"></span></a> 
+				
+            </div>
+          </div>
+          <!-- /.box -->
+
+		  <!-- .box -->
+          <div class="box">
+          	<div class="inner">
+            	<h3>What is the minimum Radio coverage that you want? (in %) :</h3>
+				<input type="number" name="value4" placeholder="1-100" min="0" max="100">
+            </div>
+          </div>
+          <!-- /.box -->
+		 
+		  <!-- .box -->
+          <div class="box">
+          	<div class="inner">
+				<h3>Calculate the results!</h2>
+				<h4> <input type="submit" value="Submit and calculate"></h2>
+            </div>
+          </div>
+               </form>
+          <!-- /.box -->
+  
+        </aside>
+        <section id="mainContent">
+        	<article>
+          	<div class="title">
+            	<h2 style="text-align:center;">Building a highway?</h2>
+				<h2 style="text-align:center;">Find out how to optimize the costs!</h2>
+            </div>
+            <div class="inside">
+            	<div class="wrapper p2">
+                <figure class="img-wrapper">
+                <!-- 	<img src="images/1_2_2.jpg" alt="">      -->
+                <img src="diagram.jpg" alt="">
+                </figure>
+              </div>
+			  
+			  
+			  
+           <!--     <h4>Tytuł opisu.</h4>
+              <p>Opis</p>
+			   -->
+			  
+            </div>
+          </article>
+          
+        </section>
+      </div>
+    </div>
+  </section>
+  <!-- footer -->
+  <footer>
+    <div class="container">
+    
+</footer>
+</body>
+</html>
