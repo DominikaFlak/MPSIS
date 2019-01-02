@@ -56,14 +56,8 @@ int main( int argc, char ** argv, char ** envp )
 
        // Set up the HTML document
        cout << html() << head() << title("Optimize the costs of bulding highway") << head() << endl;
-      // cout << body().set("bgcolor","#cccccc").set("text","#000000").set("link","#0000ff").set("vlink","#000080") << endl;
+    
          cout << body().set("background","images/content-bg.jpg").set("text","#ffffff").set("link","#0000ff").set("vlink","#000080") << endl;
-
-// cout << body().set("background","images/content-bg.jpg").set("text","#000000").set("link","#0000ff").set("vlink","#000080") << endl;
-
-
-
-
 
 
 
@@ -117,18 +111,11 @@ int main( int argc, char ** argv, char ** envp )
        }
        else
           cout << "No text entered for value4" << endl;
-//----------------------------------
-
-      // cout << p();
-      // cout << "<!--";
-       
 
 //-------------------------------------------------------------------------
         fstream myFile("workfile.mod", ios::in | ios::out); 
-     // ofstream myFile ("workfile.mod");
+    
    
-      
-    // Seek to 2361 characters from the beginning of the file 
     myFile.seekg(2161, ios::beg); 
       
    
